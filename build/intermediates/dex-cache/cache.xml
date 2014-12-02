@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ubriela\git\vnplay\Middlebox\app\libs\universal-image-loader-1.9.1-with-sources.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d2a1c7db3817af8381daa80201bc549be3e884c5">
+        <dex dex="C:\Users\ubriela\git\vnplay\Middlebox\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.1-with-sources-982fa6d550d18df311e643c46b54f8d5399c242f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ubriela\git\vnplay\Middlebox\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="C:\Users\ubriela\git\vnplay\Middlebox\app\build\intermediates\pre-dexed\release\classes-c7b2313f7d37ff10c5131c60094001eeb5ada312.jar" />
+    </item>
+    <item
+        jar="C:\Users\ubriela\git\vnplay\Middlebox\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\ubriela\git\vnplay\Middlebox\app\build\intermediates\pre-dexed\release\classes-b88affcc6cb3862e1536536789654065c299bd98.jar" />
+    </item>
+    <item
+        jar="C:\Users\ubriela\AppData\Local\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\ubriela\git\vnplay\Middlebox\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-03b12241091087641b8602c81d26c435013c1aeb.jar" />
+    </item>
+    <item
+        jar="C:\Users\ubriela\git\vnplay\Middlebox\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\ubriela\git\vnplay\Middlebox\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-1d387054712c5b4e324adb4c61296fabe2b31a28.jar" />
+    </item>
+
+</items>

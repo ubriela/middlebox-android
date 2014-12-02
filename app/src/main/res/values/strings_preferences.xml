@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Preferences Strings -->
+    <string name="notification_service_category_title">Notification service</string>
+    <string name="notificationDistance_summary">You will receive notifications for events within this distance</string>
+    <string name="notificationDistance_title">Notification distance</string>
+    <string name="service_category_title">Location service</string>
+    <string name="service_summaryOff">Notifications disabled. You should enable this service if you want to get updates for new tasks</string>
+    <string name="service_summaryOn">Notifications enabled. You will get alerts for assigned tasks</string>
+    <string name="service_onoff_title">Background service</string>
+    <string name="minTime_title">Minimum time</string>
+    <string name="reset_category_title">Reset</string>
+    <string name="default_prefs">default_prefs</string>
+    <string name="default_prefs_title">Reset settings</string>
+    <string name="default_prefs_summary">This will reset all values back to their default</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_search_events_filter">SearchEventsFilterActivity</string>
+</resources>

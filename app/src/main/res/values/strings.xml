@@ -1,0 +1,74 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+
+    <!-- Cloud Server-->
+    <string name="IP">middlebox.azurewebsites.net</string>
+    <string name="PORT">80</string>
+
+
+
+    <!--<string name="IP">http://10.0.2.2</string>-->
+    <!--<string name="PORT">80</string>-->
+
+
+    <string name="IP_TCPDUMP">128.125.163.130</string>
+    <string name="PORT_TCPDUMP">9999</string>
+
+
+    <string name="app_name">Middlebox Tester</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+
+    <string name="action_collect">Collect data</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+
+    <!-- Web Services -->
+    <string name="CreateAccountService">/index.php/user/register</string>
+    <string name="LoginService">/index.php/user/login</string>
+    <string name="StorePhoneStateService">/index.php/phone/store_phone_state</string>
+    <string name="StoreDataService">/index.php/result/store_result</string>
+
+
+    <!-- TCP DUMP Web Services -->
+    <string name="StartTcpDump">/tcpdump?start</string>
+    <string name="StopTcpDump">/tcpdump?stop</string>
+    <string name="StopTcpDumpDH">/tcpdump?stop_dh</string>
+    <string name="StopTcpDumpRE">/tcpdump?stop_re</string>
+
+    <!-- Popups/Toasts for info, errors and warnings -->
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="info">Info</string>
+    <string name="done_generic_task">Done!</string>
+    <string name="save_phone_state">The app is ready to collect data</string>
+    <string name="generalConnectivityWarning">Internet connectivity is limited or server is temporarily down. Try again later.</string>
+
+    <!-- Popups for internet connectivity -->
+    <string name="titleIntenetConnectivity">No internet access</string>
+    <string name="msgInternetConnectivity">Show wireless settings?</string>
+    <string name="titleLocationServices">Location services are disabled</string>
+    <string name="msgLocationServices">Show location settings?</string>
+    <string name="login_progress_signing_in">Hello;</string>
+
+</resources>

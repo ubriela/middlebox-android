@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_screen_key">
+
+    <PreferenceCategory android:title="@string/notification_service_category_title">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="service_onoff"
+            android:summaryOff="@string/service_summaryOff"
+            android:summaryOn="@string/service_summaryOn"
+            android:title="@string/service_onoff_title" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/reset_category_title">
+        <Preference
+            android:key="@string/default_prefs"
+            android:summary="@string/default_prefs_summary"
+            android:title="@string/default_prefs_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,2 @@
+include ':app', ':libraries:google-play-services_lib', ':actionbarsherlock'
+project(':actionbarsherlock').projectDir = new File('libraries/actionbarsherlock')
