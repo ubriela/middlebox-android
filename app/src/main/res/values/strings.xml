@@ -48,7 +48,7 @@
     <string name="LoginService">/index.php/user/login</string>
     <string name="StorePhoneStateService">/index.php/phone/store_phone_state</string>
     <string name="StoreDataService">/index.php/result/store_result</string>
-
+    <string name="SummaryAllService">/index.php/result/summary_all</string>
 
     <!-- TCP DUMP Web Services -->
     <string name="StartTcpDump">/tcpdump?start</string>
@@ -61,14 +61,34 @@
     <string name="warning">Warning</string>
     <string name="info">Info</string>
     <string name="done_generic_task">Done!</string>
+    <string name="collecting_data">The app is collecting data. Please wait.</string>
     <string name="save_phone_state">The app is ready to collect data</string>
+    <string name="select_sellular_network">Please select a cellular network in the menu on top right.</string>
+    <string name="use_mobile_network">Please use your mobile network (3G/4G).</string>
     <string name="generalConnectivityWarning">Internet connectivity is limited or server is temporarily down. Try again later.</string>
 
     <!-- Popups for internet connectivity -->
     <string name="titleIntenetConnectivity">No internet access</string>
     <string name="msgInternetConnectivity">Show wireless settings?</string>
     <string name="titleLocationServices">Location services are disabled</string>
+
     <string name="msgLocationServices">Show location settings?</string>
     <string name="login_progress_signing_in">Hello;</string>
 
+
+    <!-- Address format -->
+    <string name="address_output_string">%1$s, %2$s, %3$s</string>
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    <!-- Messages -->
+    <string name="gps_not_found_title">GPS not found!</string>
+    <string name="gps_not_found_message">Please enable location sharing.</string>
+
+    <string name="no_address_found">No address found for location</string>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+        <string name="illegal_argument_exception">
+        Illegal arguments: Latitude %1$.8f Longitude %2$.8f
+    </string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
 </resources>
