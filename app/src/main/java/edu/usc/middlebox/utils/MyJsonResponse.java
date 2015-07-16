@@ -1,4 +1,4 @@
-package middlebox.utils;
+package edu.usc.middlebox.utils;
 
 import org.json.JSONObject;
 

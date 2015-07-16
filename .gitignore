@@ -1,4 +1,9 @@
 .gradle
 /local.properties
+libraries
+build
 /.idea/workspace.xml
 .DS_Store
+.idea
+adb
+.gitignore.swp

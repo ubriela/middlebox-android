@@ -1,4 +1,4 @@
-package middlebox.preferences;
+package edu.usc.middlebox.preferences;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -9,8 +9,8 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 
-import middlebox.R;
-import middlebox.utils.CommonUtils;
+import edu.usc.middlebox.utils.CommonUtils;
+import edu.usc.middlebox.R;
 
 public class SettingsPreferenceActivity extends PreferenceActivity implements OnSharedPreferenceChangeListener {
 

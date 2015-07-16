@@ -1,4 +1,4 @@
-package middlebox.utils;
+package edu.usc.middlebox.utils;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -10,6 +10,9 @@ import android.net.NetworkInfo;
 import android.provider.Settings;
 import android.os.Handler;
 
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
@@ -17,7 +20,7 @@ import java.io.FileOutputStream;
 import java.io.DataInputStream;
 import java.net.URL;
 
-import middlebox.R;
+import edu.usc.middlebox.R;
 
 /**
  * Helper class handling the responses from the server
@@ -120,13 +123,53 @@ public class CommonUtils {
     /**
      * Checks for Internet connectivity
      *
-     * @param c the context that called this method
+     * @param context the context that called this method
      * @return true if wifi are enabled and in connected, otherwise false
      */
-    public static boolean isOnline(final Context c) {
-        ConnectivityManager cm = (ConnectivityManager) c.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+    public static boolean isOnline(final Context context) {
+        NetworkInfo netInfo = CommonUtils.getNetworkInfo(context);
         return netInfo != null && netInfo.isConnected();
+    }
+
+    /**
+     * Get the network info
+     * @param context
+     * @return
+     */
+    public static NetworkInfo getNetworkInfo(Context context){
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        return cm.getActiveNetworkInfo();
+    }
+
+    /**
+     * Check if there is any connectivity to a Wifi network (value = 1)
+     * @param context
+     * @return
+     */
+    public static boolean isConnectedWifi(Context context){
+        NetworkInfo info = CommonUtils.getNetworkInfo(context);
+        return (info != null && info.isConnected() && info.getType() == ConnectivityManager.TYPE_WIFI);
+    }
+
+
+    /**
+     * Check if there is any connectivity to a mobile network (value = 0)
+     * @param context
+     * @return
+     */
+    public static boolean isConnectedMobile(Context context){
+        NetworkInfo info = CommonUtils.getNetworkInfo(context);
+        return (info != null && info.isConnected() && info.getType() == ConnectivityManager.TYPE_MOBILE);
+    }
+
+    /**
+     * Check if there is any connectivity to a mobile network (value = 0)
+     * @param context
+     * @return
+     */
+    public static boolean isConnectedEthernet(Context context){
+        NetworkInfo info = CommonUtils.getNetworkInfo(context);
+        return (info != null && info.isConnected() && info.getType() == ConnectivityManager.TYPE_ETHERNET);
     }
 
     /**

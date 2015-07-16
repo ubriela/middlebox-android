@@ -1,4 +1,4 @@
-package middlebox.utils;
+package edu.usc.middlebox.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

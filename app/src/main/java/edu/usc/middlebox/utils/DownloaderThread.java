@@ -23,7 +23,7 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package middlebox.utils;
+package edu.usc.middlebox.utils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

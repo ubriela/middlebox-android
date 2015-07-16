@@ -1,4 +1,4 @@
-package middlebox.activities;
+package edu.usc.middlebox.activities;
 
 public class DrawerItem {
 
